@@ -1,0 +1,26 @@
+.score__info {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.reset__box {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.reset__btn {
+    padding: 2px 20px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    font-weight: 600;
+    &:hover {
+        color: rgb(0, 120, 219);
+    }
+}
